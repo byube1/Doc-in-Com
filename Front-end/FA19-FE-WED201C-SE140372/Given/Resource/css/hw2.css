@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    text-align:  center;
+
+}
+
+header h1{
+    color: rgb(245, 186, 76);
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header nav a{
+    padding: 80px;
+    text-decoration: none;
+    color: rgb(13, 122, 99);
+    padding: 15px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    border-radius: 5px;
+}
+a.active{
+    background-color: orange;
+}
+a:hover{
+    background-color: rgb(245, 204, 127);
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    float: left;
+    width: 200px;
+    height: 100%;
+    padding-bottom: 35%;
+    background-color:rgb(224, 171, 72);
+}
+.left img{
+    width: 70%;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 25px;
+    border: solid red 2px;
+    border-radius: 10px;  
+}
+
+
+.right{
+    display: block;
+    width: 80%;
+    float: right;
+}
+
+.right h2{
+    color: rgb(66, 221, 248);
+}
+
+.right table {
+    border-collapse: collapse;
+        width: 800px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        font-size: 80%;
+}
+   th{
+    
+    background-image: linear-gradient(rgb(243, 221, 181),rgb(250, 91, 17));
+    color: #06425C;
+    border: 2px solid #ffffff;
+   }
+   td {
+    background: #FFD6B6;
+    color: #3692A0;
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+table, td, th {
+    margin-left: 3%;
+    padding: 1%;
+}
+tr th:first-child, tr td:first-child {
+    text-align: left;
+}
+tr td {
+    opacity: 0.8;
+}
+
+    tr td:hover, tr th:hover {
+        opacity: 1.5;
+        font-size: 110%;
+    }
+
+    #source {
+        color:#FF0000; 
+        text-decoration:none;
+    }

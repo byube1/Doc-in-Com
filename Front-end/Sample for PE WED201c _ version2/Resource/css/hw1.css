@@ -1,0 +1,41 @@
+.left {
+    display: none
+
+}
+
+header  {
+    background-color: gray;
+     text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    color: yellow;
+}
+
+header nav a {
+   color: black;
+   background-color: goldenrod;
+  
+     
+}
+
+main{
+    background-color: gray;
+}
+
+main h2{
+    color:rgb(212, 206, 206);
+}
+
+main section table{
+    padding-left: 30%;
+}
+
+main section table tbody tr th{
+    background-color: rgb(196, 196, 83);
+}
+
+#myform{
+    display: none;
+}

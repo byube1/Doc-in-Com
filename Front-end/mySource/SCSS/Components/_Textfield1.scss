@@ -1,0 +1,41 @@
+.inputField{
+    position: relative;
+
+    .box{
+        padding: 10px 0;
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: 300;
+        border: none;
+        border-bottom: 1px solid #777;
+        outline: none;
+        width: 100%;
+
+        
+    }
+
+    label{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.486);
+        transition: 0.2s all;
+    }
+
+    .box:focus{
+        outline: none;
+        border-bottom: 2px solid #1976d2;
+    }
+
+    .box:focus~label{
+        color: #1976d2;
+    }
+
+    .box:focus~label,.box:valid~label{
+        font-size: 12px;
+        transform: translateY(-10px);
+        
+    }
+
+}

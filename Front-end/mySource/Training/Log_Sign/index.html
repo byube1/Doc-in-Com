@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="textContainer">
+            <div class="left">
+                <h3>
+                    LEFT
+                </h3>
+                <input type="text">
+                <button type="button" id="L">Click L</button>
+            </div>
+
+            <div class="right">
+                <h3>
+                    RIGTH
+                </h3>
+               <button type="button" id="R">Click R </button>
+            </div>
+        </div>
+
+        <div class="overlay" id="ol">
+        </div>
+    </div>
+
+</body>
+
+<script>
+    var LButton = document.getElementById("L");
+    const RButton = document.getElementById("R");
+    const container = document.getElementById('container');
+    RButton.addEventListener('click',()=>{
+        container.classList.remove("action");
+    })    
+
+    LButton.addEventListener('click',()=>{
+        container.classList.add("action");
+    })  
+
+
+</script>
+</html>

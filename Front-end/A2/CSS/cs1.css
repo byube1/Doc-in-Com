@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    background-image: url(/IMG/resort1.jpg);
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.top{
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    height: 65px;
+    
+    background-image: linear-gradient(rgb(103, 179, 103),rgb(90, 153, 90)) ;
+    padding-bottom: 20px;
+}
+.logo{
+    width: 20%;
+    float: left;
+    display: inline-flex;
+   
+}
+nav{
+    width: 60%;
+    
+}
+nav ul{
+    display: inline-flex;
+    
+    float: right;
+    list-style: none;
+}
+
+nav ul li{
+   
+    
+    display: inline;
+    
+    
+
+}
+
+nav ul li :hover{
+    background-color: green;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 21px;
+    padding-bottom: 24px;
+    color: white;
+    display: block;
+}
+
+
+.mid{
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+.mid h1{
+       text-transform: uppercase ;
+       font-size: 50px;
+       color: white;
+}
+.mid h3{
+    display: block;
+    position: relative;
+    top: 20px;
+    color: rgb(221, 217, 217);
+}
+
+
+.learn a {
+    text-decoration: none;
+    color: rgb(247, 239, 224);
+    border: solid 2px white;
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+.learn{
+    position: relative;
+    display: inline-flex;
+    padding: 6px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+    top: 50px;
+
+}
+
+.learn:hover{
+    background-color: rgb(145, 145, 145);
+}
+
+
+#detail {
+   
+    display: none;
+    position: relative;
+    top: 50px ;
+    color: whitesmoke;
+    
+
+}

@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.LoginForm {
+  font-family: 'Lato', sans-serif;
+  width: 450px;
+  height: 520px;
+  border-radius: 5px;
+  margin: 8% auto;
+  font-size: 20px;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.LoginForm form {
+  width: 350px;
+  top: 70px;
+  left: 45px;
+  position: absolute;
+  transition: 0.5s all;
+}
+
+.LoginForm form h3 {
+  text-align: center;
+  color: #777;
+  margin-bottom: 35px;
+}
+
+.LoginForm form input {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 10px 0;
+  border: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+  transition: 0.5s all;
+}
+
+.LoginForm form ::placeholder {
+  color: #777;
+  font-size: 15px;
+}
+
+.LoginForm form .btn-box {
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.LoginForm #Form2 {
+  left: 450px;
+}
+
+.LoginForm #Form3 {
+  left: 450px;
+}
+
+.LoginForm .step-row {
+  width: 450px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 -1px 5px -1px #000;
+  position: relative;
+}
+
+.LoginForm .step-row .step-col {
+  width: 145px;
+  text-align: center;
+  color: #333;
+  position: relative;
+}
+
+.LoginForm #progress {
+  position: absolute;
+  height: 100%;
+  width: 145px;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  transition: 0.5s all;
+}
+
+.LoginForm #progress::after {
+  content: "";
+  height: 0;
+  width: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  right: -20px;
+  top: 0;
+  border-left: 20px solid #ffad06;
+}
+
+.inputField {
+  position: relative;
+}
+
+.inputField .box {
+  padding: 10px 0;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  border: none;
+  border-bottom: 1px solid #777;
+  outline: none;
+  width: 100%;
+}
+
+.inputField label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.486);
+  transition: 0.2s all;
+}
+
+.inputField .box:focus {
+  outline: none;
+  border-bottom: 2px solid #1976d2;
+}
+
+.inputField .box:focus ~ label {
+  color: #1976d2;
+}
+
+.inputField .box:focus ~ label, .inputField .box:valid ~ label {
+  font-size: 12px;
+  transform: translateY(-10px);
+}
+
+.Button_1 {
+  position: relative;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  outline: none;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-style: none;
+  transition: 0.5s all;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+.Button_1 span {
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: animate 0.8s linear infinite;
+}
+
+.Button_1:hover {
+  background: linear-gradient(to right, #d81355, #ca8907);
+}
+
+@keyframes animate {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.2;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+    opacity: 0.2;
+  }
+}
+/*# sourceMappingURL=mySource.css.map */
